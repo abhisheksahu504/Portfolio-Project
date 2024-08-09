@@ -1,5 +1,4 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
 import dp from "../assets/dp.jpg";
 
 const Hero = () => {

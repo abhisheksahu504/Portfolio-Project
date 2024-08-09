@@ -1,7 +1,5 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With a hands-on experience as intern, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, express.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -24,32 +22,20 @@ Successfully integrated over 15 RESTful APIs, reducing data retrieval time by 40
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Full stack site with admin panel",
     image: project1,
+    link: "https://mern-with-adminpanel.netlify.app/",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Users can easily sign up and log in to access the platform's features ,Enable admins to review, respond to, and manage queries. Include functionalities such as editing user or removing user ",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Super App React",
     image: project2,
+    link: "https://capstone-project-chi-lime.vercel.app/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "App recommends movies based on users preferred genres,Implemented local storage for user data, leveraging integrated API to suggest movies based on user preferences",
+    technologies: ["HTML", "CSS", "Javascript", "React"],
   },
 ];
 
