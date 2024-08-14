@@ -20,6 +20,19 @@ Successfully integrated over 15 RESTful APIs, reducing data retrieval time by 40
   },
 ];
 
+export const EDUCATIONS = [
+  {
+    institute: "Kamla Nehru Mahavidhyalaya, Nagpur",
+    course: "Bachelor of Computer Application",
+    year: "2018-2021",
+  },
+  {
+    institute: "LNCT University, Bhopal",
+    course: "Masters of Computer Application",
+    year: "2021-2023",
+  },
+];
+
 export const PROJECTS = [
   {
     title: "Full stack site with admin panel",
