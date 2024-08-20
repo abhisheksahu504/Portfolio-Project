@@ -10,13 +10,16 @@ const Navbar = () => {
         <FaLaptopCode className="text-4xl" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href="https://www.linkedin.com/in/iamabhisheksahu/">
+        <a target="_blank" href="https://www.linkedin.com/in/iamabhisheksahu/">
           <FaLinkedin />
         </a>
-        <a href="https://github.com/abhisheksahu504/">
+        <a target="_blank" href="https://github.com/abhisheksahu504/">
           <FaGithub />
         </a>
-        <a href="https://www.instagram.com/abhishek.is.the.name/">
+        <a
+          target="_blank"
+          href="https://www.instagram.com/abhishek.is.the.name/"
+        >
           <FaInstagram />
         </a>
       </div>
